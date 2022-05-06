@@ -61,3 +61,27 @@ h2 {
     height: inherit;
     font-size: 1.5em;
 }
+@media (max-width:680px){
+    .cronometro{
+        width: 120px;
+        height: 120px;
+    }
+    .tempo{
+        font-size: 1em;
+    }
+    .relogioContainer{
+        padding: 15px;
+    }
+}
+@media (max-width:400px){
+    .cronometro{
+        width: 80px;
+        height: 80px;
+    }
+    .tempo{
+        font-size: 0.8em;
+    }
+    .relogioContainer{
+        padding: 5px;
+    }
+}

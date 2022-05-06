@@ -80,7 +80,7 @@ function tempoDecomposto (tempoDeJogo, lugar){
     let dividido = milstring.split('.');
     
     if (h > 0){
-        lugar.innerHTML = `${h}h:${m}m`;
+        lugar.innerHTML = `${h}h:${m}m ${seg}s:`;
     }
     if (h == 0){
         lugar.innerHTML = `${m}m:${seg}s: ${dividido[1]}mi`;
