@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio de Xadrez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header><h1>Relógio simples para jogo de xadrez</h1></header>
+    <main>
+        <section class="relogio">
+            <h2>Tempo de Jogo</h2>
+            <div class="settempodejogo">
+                <label for="horas">Horas</label>
+                <input class="tempodejogo" type="number" name="horas" id="horas">
+
+                <label for="minutos">Minutos</label>
+                <input class="tempodejogo" type="number" name="minutos" id="minutos">
+
+                <label for="segundos">Segundos</label>
+                <input class="tempodejogo" type="number" name="segundos" id="segundos">
+
+                <label for="acrescimos">Acréscimos</label>
+                <input class="tempodejogo" type="number" name="acrescimos" id="acrescimos">
+
+                <button class="configuracao">Configurar</button>
+                <button class="iniciar">Começar Partida</button>
+                
+            </div>
+        </section>
+        <section class="relogioContainer">
+            <div class="cronometroContainer">
+                <h2>Brancas</h2>
+                <div class="cronometro">
+                
+                    <div class="tempo">
+                        0h:0m:0s
+                    </div>
+                </div>
+            </div>
+            <div class="cronometroContainer">
+                <h2>Pretas</h2>
+                <div class="cronometro">
+                    <div class="tempo">
+                        0h:0m:0s
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

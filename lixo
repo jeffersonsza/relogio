@@ -1,0 +1,7 @@
+    switch(controle){
+        case -1: tempobrancas +=acrescimo;
+        break;
+        return;
+
+        case 1: tempopretas += acrescimo;
+    }
