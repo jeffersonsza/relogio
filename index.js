@@ -39,6 +39,10 @@ function resetarValores(inputs){
 }
 function iniciaJogo(){
     document.body.addEventListener('keydown', trocaDeJogador);
+    let areadeclick = document.querySelectorAll('.cronometro')
+    for (let i = 0;i<areadeclick.length; i++){
+        areadeclick[i].addEventListener('click',trocaDeJogador);
+    }
     document.querySelector('.relogio').style.display = 'none';
     cronometro();
 }
